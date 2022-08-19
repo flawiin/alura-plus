@@ -58,6 +58,10 @@ body {
     border-color: none;
 }
 
+.botao-header-um:hover {
+    font-size: 1.125rem;
+}
+
 .botao-header-dois {
     display: block;
     width: 512px;
@@ -72,6 +76,10 @@ body {
     text-decoration: none;
     font-size: 16px;
     color: #ffffff;
+}
+
+.botao-header-dois:hover {
+    font-size: 1.125rem;
 }
 
 .paragrafo-header {
@@ -154,11 +162,11 @@ body {
 .botao-combo {
     display: block;
     background: #167BF7;
-    width: 168px;
-    height: 56px;
+    width: 11.5rem;
+    height: 3.625rem;
     margin-left: 7.5rem;
-    padding: 16px;
-    border-radius: 8px;
+    padding: 1rem;
+    border-radius: .5rem;
     font-family: 'Inter';
     font-weight: 400;
     font-style: normal;
@@ -167,6 +175,10 @@ body {
     text-align: center;
     text-decoration: none;
     color: #ffffff;
+}
+
+.botao-combo:hover {
+    font-size: 1.125rem;
 }
 
 .telas {
