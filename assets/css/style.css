@@ -331,3 +331,15 @@ body {
     
 }
 
+@media screen and (max-width: 85.5rem) {
+    .container-principal, .titulo-sections, .titulo-principal, .img-container-principal, .botao-header-um, .botao-header-dois, .container-um, .container-dois, .telas, .img-plataforma, .bloco-principal, .bloco-footer, .botao-combo, .container-tres, .notebook, .titulo-container-quatro, .imagem-tv-box, .imagem-computador-box, .imagem-tablet-box, .bloco-footer, .logo-box, .footer-links, .paragrafo-header, .paragrafo-container-dois, .paragrafo-sections, .paragrafo-container-tres, .footer-links a, .footer-links a:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin: 5% 0;
+        padding: 5%;
+    }
+}
